@@ -1,0 +1,15 @@
+export async function postRequest(url, body) {
+  const options = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: body,
+  };
+  const res = await fetch(url, options);
+  if (!res.ok) {
+    throw new Error("An error has occurred");
+  }
+  const result = await res.json();
+  return result;
+}

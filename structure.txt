@@ -1,0 +1,12 @@
+-src
+--javascript
+---constants
+---+API.js
+---helpers
+---+service.js
+---templates
+---+template.js
+--+main.js
+--public
+---+ index.html
+-data.json

@@ -1,0 +1,31 @@
+- fix ui form add
+- fix iconButton
+- tạo type bỏ icon hoặc button
+-- fix categori clear
+-- bị re-render 
+-input thiếu laybel
+--navigate thẻ h1
+-- difine cái veriable
+--fix id trong productitem
+useRef
+--texrea
+--fix cái search
+
+
+
+className={styles.input_items}
+          value={category}
+          onChange={handleChangeCategory}
+        
+          <option value="">Categories Category</option>
+          <option value="breakfast">Breakfast</option>
+          <option value="lunch">Lunch</option>
+          <option value="shakes">Shakes</option>
+          <option value="dinner">Dinner</option>
+
+
+header
+body => {children}
+footer
+
+- 
